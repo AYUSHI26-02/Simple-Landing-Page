@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Simple Landing Page</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="home logo.png" class="logo">
+            </div>
+
+            <input type="checkbox" id="check">
+
+            <label for="check" class="checkbtn">Menu
+            <i class="fa-solid fa-caret-down"></i>
+            </label>
+
+            <ul class="link">
+                <li><a href="#a1" class="active">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#a2">SERVICES</a></li>
+                <li><a href="#a3">CONTACT US</a></li>
+            </ul>
+
+            <div class="button">
+                <button class="btn">Login</button>
+                <button class="btn-i">Registion Now</button>
+            </div>
+
+        </nav>
+    </header>
+
+    <nav class="cont " id="a1">
+        <div class="cont-sectinon ">
+            <div class="text ">
+                <h1>A home built and unique with love and dreams</h1>
+                <p>Discover a curated selection of homes, apartments, and commercial properties, along with expert tips, market insights, and valuable resources to help you make the best real estate decisions, join us today and let's unlock the doors to
+                    your dream property!</p>
+                <div class="button-i">
+                    <button class="btn-i ">Buy Now</button>
+                    <button class="btn ">Learn More</button>
+                </div>
+            </div>
+            <div class="photo">
+                <img src="home.jpeg" class="photo">
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="services " id="a2">
+        <div class="services-heading ">
+            <h1>Our Main Services</h1>
+        </div>
+        <div class="services-contaion ">
+            <div class="service ">
+                <img src="service-1.png " class="service-img ">
+                <h3>Buy a home</h3>
+                <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
+                <div class="find ">
+                    <p class="find ">Find A Home
+                        <i class="fa-solid fa-arrow-right "></i>
+                    </p>
+                </div>
+            </div>
+
+            <div class="service ">
+                <img src="service-2.png " class="service-img ">
+                <h3>Rent a home</h3>
+                <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
+                <div class="find ">
+                    <p class="find ">Find A Home
+                        <i class="fa-solid fa-arrow-right "></i>
+                    </p>
+                </div>
+            </div>
+
+            <div class="service ">
+                <img src="service-3.png " class="service-img ">
+                <h3>Sell a home</h3>
+                <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
+                <div class="find ">
+                    <p class="find ">Find A Home
+                        <i class="fa-solid fa-arrow-right "></i>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-us " id="a3">
+        <div class="photo ">
+            <img src="contact.jpg " class="image ">
+        </div>
+        <div class="contact ">
+            <div class="text-cont ">
+                <h1>Contact Us</h1>
+                <p>Discover the difference, where expertise meets excellience in real estate. <br> Let's embark on this exciting journey together.</p>
+            </div>
+
+            <form onsubmit="return myvalue() " action="abc.html ">
+
+                <input type="text " placeholder="First Name " id="n1">
+                <input type="text " placeholder="Last Name " id="n2"></br>
+                <input type="text " placeholder="Email Address " id="n3">
+                <input type="text " placeholder="Phone Number " id="n4"></br>
+                <textarea name="text " placeholder="Description " id="n5"></textarea></br>
+                <input type="submit" value="SEND MESSAGE" id="n6">
+
+            </form>
+            <div class="icons">
+                <h4>Connect with us:</h4>
+
+                <div class="icon">
+                    <a href="# " class="fa-brands fa-facebook "></a>
+                    <a href="# " class="fa-brands fa-twitter "></a>
+                    <a href="# " class="fa-brands fa-instagram "></a>
+                    <a href="# " class="fa-brands fa-linkedin "></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src=" page.js "></script>
+
+</body>
+
+</html>
