@@ -34,8 +34,9 @@ This project is a simple landing page template that can be used for various purp
 - **Customize Content:** Edit the HTML, CSS, and JavaScript files to add your own content and adjust the styling.
 
 ## Screenshots
-
-![l3](https://github.com/AYUSHI26-02/Simple-Landing-Page/assets/173496670/af82c49d-95e1-4e95-b1b1-a7216d576d05)
+![l1](https://github.com/AYUSHI26-02/Simple-Landing-Page/assets/173496670/52c5857d-9e07-470c-b555-8ea83145a943)
+![l2](https://github.com/AYUSHI26-02/Simple-Landing-Page/assets/173496670/63cc8a83-e926-44f7-b449-e1c3d00c689c)
+![l3](https://github.com/AYUSHI26-02/Simple-Landing-Page/assets/173496670/4620030c-f22c-43b4-905a-7ebd29a8ed63)
 
 ## Contact
 
