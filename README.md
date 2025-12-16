@@ -40,6 +40,7 @@ This project is a simple landing page template that can be used for various purp
 
 ## Contact
 
-- **LinkedIn:** https://www.linkedin.com/in/ayushi-patel-71ab112b3
-
+- **LinkedIn:** [Ayushi Patel](https://www.linkedin.com/in/ayushi-patel2602/) 
+- **GitHub:** [AYUSHI26-02](https://github.com/AYUSHI26-02)
+  
 Thank you for using this simple landing page template!
